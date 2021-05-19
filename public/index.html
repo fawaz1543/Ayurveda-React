@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/">
+    
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0 , shrink-to-fit=no "  />
+   
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+ 
+     <link rel="stylesheet" href="%PUBLIC_URL%/fonts/fonts.css" />
+
+     <link rel="stylesheet" href="css/styles.css" />
+     <link rel="stylesheet" href="css/responsive.css" />
+
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5f81771e4704467e89f6450e/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
+
+
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '296987894508978');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=296987894508978&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+ 
+
+  
+
+  <script>
+      $(document).ready(function(){
+        $('.collapsible').click(function(){
+          $('.collapsible').hide();
+        });
+  });
+
+  $(document).ready(function(){
+  $('.carousel').carousel({
+  interval: 2500 
+  });
+})
+
+
+
+  </script>
+
+
+
+
+    <script type="text/javascript">
+ 
+        $(document).ready(function() {
+var selectedClass = "";
+$(".filter").click(function(){
+selectedClass = $(this).attr("data-rel");
+$("#gallery").fadeTo(100, 0.1);
+$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+setTimeout(function() {
+$("."+selectedClass).fadeIn().addClass('animation');
+$("#gallery").fadeTo(300, 1);
+}, 300);
+});
+});
+
+
+
+$(document).click(function(){
+  $(".dropdown-menu").hide('slow'); 
+ });
+ 
+ $(".dropdown-menu").click(function(e){
+   e.stopPropagation(); 
+ });
+
+
+
+$(document).ready(function() {
+    if(window.location.hash.length > 0) {
+        window.scrollTo(0, $(window.location.hash).offset().top);
+    }
+});
+
+
+
+$(document).ready(function() {
+  window.scrollTo(0,$('#cervical').offset().top);
+  window.scrollTo(0,$('#lowerbackpain').offset().top);
+
+
+   window.scrollTo(0,$('#terms').offset().top);
+   window.scrollTo(0,$('#privacy').offset().top);
+});
+
+
+$(document).ready(function() {
+	var $active = $('#accordion .panel-collapse.in').prev().addClass('active');
+	$active.find('a').append('<span class="glyphicon glyphicon-minus pull-right"></span>');
+	$('#accordion .panel-heading').not($active).find('a').prepend('<span class="glyphicon glyphicon-plus pull-right"></span>');
+	$('#accordion').on('show.bs.collapse', function (e)
+	{
+		$('#accordion .panel-heading.active').removeClass('active').find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+		$(e.target).prev().addClass('active').find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+	});
+	$('#accordion').on('hide.bs.collapse', function (e)
+	{
+		$(e.target).prev().removeClass('active').find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+	});
+});
+
+
+
+
+    </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        $('.filter').show('1000');
+    }
+    else
+    {
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+
+        if ($(".filter-button").removeClass("active")) {
+  $(this).removeClass("active");
+    }
+      $(this).addClass("active");
+    });
+});
+/*	end gallery */
+
+$(document).ready(function(){
+$(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none"
+});
+});
+
+</script>
+
+
+
+</html>

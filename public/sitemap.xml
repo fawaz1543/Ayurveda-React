@@ -1,0 +1,8 @@
+const config = {
+    '/post/:slug': [
+        { slug: postPaths },
+    ],
+    '/page/:name': [
+        {name: pages}
+    ]
+};

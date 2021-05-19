@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  .navbar__link {
+    margin: 1em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-indent: .3em;
+    color: #ffffff;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar__link:hover {
+    transform: translateY(-2px);
+    text-decoration:none;
+    color:#29a169;
+  }
+  
+  .navbar__link--active {
+    border-top: 3px solid #147a47;
+    transition: border-bottom .5s ease-in-out;
+  }

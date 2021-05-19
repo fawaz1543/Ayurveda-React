@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Lato-Light.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+
+
+ @font-face {
+   font-family: 'Charm Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Charm Regular'), url('../fonts/Charm-Regular.woff') format('woff');
+   }
+   
+   
+   @font-face {
+   font-family: 'Charm Bold';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Charm Bold'), url('../fonts/Charm-Bold.woff') format('woff');
+   }

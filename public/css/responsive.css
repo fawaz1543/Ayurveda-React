@@ -1,0 +1,1604 @@
+
+
+
+@media screen and (min-width:2800px) and (max-width:3000px)
+{
+    .carousel-indicators
+    {
+        position:relative;
+        bottom:30px;
+    }
+
+    .ayur-introduction-layout
+    {
+        margin-top:630px;
+    }
+}
+
+@media screen and (min-width:2500px)  and (max-width:2800px)
+{
+    
+    .carousel-inner
+    {
+        width:100vw !important;
+        margin-top: -1px;
+    }
+
+   
+
+    .ayur-introduction-content
+    {
+        margin-top:500px;
+    }
+
+    .about-banner
+    {
+        height:680px !important;
+    }
+
+
+    .Blog-banner
+    {
+        height:680px !important;  
+    }
+
+    .Contact-banner
+    {
+        height:680px !important;   
+    }
+    
+
+}
+
+
+@media screen and (min-width:2000px)
+{
+   
+    
+}
+
+
+@media screen and (min-width:1500px) and (max-width:2000px)
+{
+
+    .ayur-introduction-layout
+    {
+        margin-top:282px !important;
+    }
+
+
+}
+
+
+@media screen and (min-width:1351px) and (max-width:1378px)
+{
+
+
+    #hours
+    {
+        display:none;
+    }
+
+    ul.navbar-nav li a {
+        font-size:13px;
+    }
+
+}
+
+
+
+@media screen and (max-width:1350px)
+{
+    .navbar-nav li a
+    {
+        font-size:13px;
+    }
+
+    .logo
+    {
+        margin-top: 23px;
+    }
+
+    #hours
+    {
+        display:none;
+    }
+
+    .circle-section 
+    {
+        position:relative;
+        left:210px !important;
+    }
+
+    .collapse-circle
+    {
+        display:none;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) and (max-width:1450px)
+{
+    .ayur-introduction-layout
+    {
+        margin-top:50px;
+    }
+
+    .ayur-introduction-content
+    {
+        margin-top:70px;
+    }
+
+    .logo{
+        margin-top:25px;
+    }
+
+    /* #hours
+    {
+        display:none;
+    } */
+
+
+}
+
+
+@media screen and (max-width:1024px) 
+{
+
+    .ayur-introduction-layout
+    {
+        background-color:#1e8b31;
+        padding:30px;
+        color:#ffffff;
+        margin-top:-37px;
+    }
+
+
+    .carousel-indicators li
+    {
+        display:none;
+    }
+
+    span#hours
+    {
+        display:none;
+    }
+
+    .collapse-circle
+    {
+        display:none;
+    }
+
+    .circle-section 
+    {
+        position:relative;
+        left:-5px !important;
+    }
+
+
+    .navbar-nav li a
+    {
+       position:relative;
+       top:10px !important;
+       right:30px !important;
+       font-size:11px;
+    }
+
+    .dropdown-menu
+    {
+        width:100%;
+        line-height:20px;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:1000px)
+{
+
+    .carousel-control-prev-icon
+    {
+        margin-top:-200px !important;
+    }
+
+    .carousel-control-next-icon
+    {
+        margin-top:-200px !important;
+    }
+
+    #about-responsive-layout
+    {
+        margin-top:0px !important;
+    }
+       
+    .ayur-introduction-content
+    {
+        margin-top:0px;
+    }
+
+    .logo{
+        margin-top:50px;
+    }
+
+    .navbar-collapse
+    {
+        position:absolute;
+        top:200px;
+    }
+
+    .carousel-indicators li
+    {
+        display:none;
+    }
+
+    .ayur-introduction-layout
+    {
+        background-color:#1e8b31;
+        padding:30px;    
+        margin-top: -117px !important;
+        color:#ffffff;
+       
+
+    }
+    .ayur-introduction-layout p
+    {
+        font-weight:100;
+        text-align:justify;
+        padding:10px;
+    }
+
+    .about-introduction
+    {
+        background-color:#1e8b31;
+        padding:30px;
+        color:#ffffff;
+        margin-top:-300px;
+
+    }
+
+    .about-doctor-pic
+    {
+        margin-left:0px !important;
+    }
+
+    .about-introduction h3
+    {
+        color:#ffffff !important;
+    }
+
+    .about-introduction p
+    {
+        color:#ffffff !important;
+    }
+
+
+    .collapse-circle
+    {
+        display:none;
+    }
+
+    .service-carousel
+    {
+       display:none;
+    }
+
+    .service-carousel
+    {
+       display:none;
+    }
+
+    span{
+        text-align: justify;
+        font-weight:300 !important;
+    }
+
+    .Service-title
+    {
+        
+        font-size:30px !important;
+        text-decoration: none !important;
+    }
+
+    .testimonial-image img
+    {
+        width:50% !important;
+    }
+
+    .testimonial-title
+    {
+        margin-left:0px !important;
+    }
+
+
+    .first-package
+    {
+        width:100% !important;
+    }
+    .first-package-header
+    {
+        width:100% !important;
+    }
+
+
+    .second-package
+    {
+        width:100% !important;
+    }
+
+    .second-package-header
+    {
+        width:100% !important;
+    }
+
+    .third-package
+    {
+        width:100% !important;
+    }
+
+    .third-package-header
+    {
+        width:100% !important;
+    }
+
+  
+
+    .navbar-toggler
+    {
+       position:relative;
+       top:-25px;
+       left:370px;
+       color:#ffffff !important;
+       background-color: rgb(23, 116, 20) !important;
+       border-radius:50px !important;
+    }
+
+    
+
+     
+    .navbar-toggler:focus{
+        outline:none;
+    }
+
+     
+    .navbar-collapse
+    {
+        background-color:#1f8b31;
+        flex-direction: column;
+        border-radius:10px 10px 10px 10px;
+        position:relative;
+        top:-13px;
+        left:100px;
+        padding-top:4px;
+        padding-bottom:20px;
+        padding-left:20px;
+        width:300px;
+    }
+
+
+    .navbar-collapse li {
+        margin-top:10px;
+    }
+
+
+    .navbar-collapse li a {
+        font-size:16px;
+    }
+
+    .nav-leaf
+    {
+        color:#fff;
+    }
+
+    ul.submenu-list-health
+    {
+        padding:0 !important;
+        padding-bottom:40px !important;
+        margin-left:40px !important;
+    }
+
+    .dropdown-health-inner
+    {
+        border-right:none !important;
+    }
+
+    ul.submenu-list-health li a
+    {
+        color:#fff;
+        font-size:14px;
+    }
+
+    .dropdown-menu
+    {
+        position:absolute;
+        width:250px !important;
+        left:-150px !important; 
+        background: rgb(31 48 28) !important;
+        box-shadow:none !important;
+        border-radius:20px !important;
+        overflow:scroll;
+        margin-top:20px !important;
+        
+    }
+
+    .nav-leaf
+    {
+        color:#fff !important;
+    }
+
+    #book-appointment
+    {
+        border-radius:0px !important;
+    }
+
+    #why-ayurveda
+    {
+        border-radius:0px !important;
+    }
+
+
+    .service-ayur-icons
+    {
+        display:none;
+    }
+
+
+    .dropdown-layout
+    {
+        float:none !important;      
+    }
+
+
+    .dropdown-first-inner-layout
+    {
+        float:none !important;
+    }
+
+    .dropdown-health-inner
+    {
+        float:none !important;
+    }
+
+
+    ul.submenu-list-health li a
+    {
+        font-size:13px;
+        color:#ffffff;
+    }
+
+    ul.submenu-list-doctor li a
+    {
+        font-size:13px;
+        padding:0;
+
+        color:#ffffff;
+    }
+
+    ul.submenu-list-wellness li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff;   
+    }
+
+   
+
+    ul.submenu-list-pregnancy li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff; 
+    }
+
+
+
+    .icon-bar
+    {
+        margin-top:22px;
+    }
+
+
+    #top-contact-details
+    {
+        display:none;
+    }
+
+ 
+    
+    .Related-blogs
+    {
+        display:none;
+    }
+
+    .blog-content-section 
+    {
+        width:100% !important;
+    }
+
+    ul.breadcrumb li a
+    {
+        font-size:13px;
+    }
+
+
+}
+
+
+@media screen and (min-width:800px)  and (max-width:900px) 
+{
+
+  
+    
+    .ayur-introduction-content
+    {
+        margin-top:0px;
+    }
+
+
+    .circle-section
+    {
+        display:none !important;
+    }
+
+    .ayur-introduction-layout
+    {
+        margin-top:-200px;
+    }
+
+    .ayur-introduction-content h2
+    {
+        text-decoration: underline;
+    }
+
+    .navbar-toggler
+    {
+        position:relative;
+        left:350px;
+        top:-30px;
+    }
+
+
+    .Service-title
+    {
+        font-size:30px !important;
+        text-decoration:underline;
+    }
+
+    .first-top-section
+    {
+        width:100%;
+        background-color:#EAEAEA;
+    }
+
+}
+
+
+@media screen and (min-width:500px)  and (max-width:600px) 
+{
+
+
+    .ayur-introduction-content
+    {
+        margin-top:0px;
+    }
+
+
+    .service-carousel
+    {
+       display:none;
+    }
+
+    span{
+        text-align: justify;
+        font-weight:300 !important;
+    }
+
+    .ayur-introduction-layout
+    {
+        background-color:#1e8b31;
+        padding:30px;
+        color:#ffffff;
+        position:relative;
+        top:-50px;
+    }
+
+
+    .ayur-introduction-layout p
+    {
+        font-weight:100;
+        text-align:justify;
+        padding:10px;
+    }
+
+    #carouselExampleIndicators
+    {
+        display:none;
+    }
+
+    .about-img
+    {
+        display:none;
+    }
+
+    .about-introduction
+    {
+        padding:15px !important;
+    }
+
+
+    .service-ayur-icons
+    {
+        display:none;
+    }
+
+
+
+    .Service-title
+    {
+       background-color:#dc3545;
+       width:100%;
+       color:#ffffff;
+       border-radius:10px;
+       padding:10px;
+    }
+
+
+    .first-package
+    {
+        margin-left:50px;
+    }
+
+    .second-package
+    {
+        margin-left:50px;
+    }
+
+    .third-package
+    {
+        margin-left:50px;
+    }
+  
+    .navbar-toggler
+    {
+       position:absolute;
+       top:-70px;
+       left:350px;
+       color:#ffffff !important;
+       padding-left:20px;
+       background-color: rgb(23, 116, 20) !important;
+       border-radius:50px !important;
+    }
+
+    .dropdown-menu
+    {
+        position:absolute;
+        left:-150px !important; 
+        background:rgb(21, 102, 14) !important;
+        box-shadow:none !important;
+        border-radius:20px !important;
+        overflow:scroll;
+        
+    }
+
+    .dropdown-layout
+    {
+        float:none !important;      
+    }
+
+
+    .dropdown-first-inner-layout
+    {
+        float:none !important;
+    }
+
+    .dropdown-health-inner
+    {
+        float:none !important;
+    }
+
+
+    ul.submenu-list-health li a
+    {
+        font-size:13px;
+        color:#ffffff;
+    }
+
+    ul.submenu-list-doctor li a
+    {
+        font-size:13px;
+        padding:0;
+
+        color:#ffffff;
+    }
+
+    ul.submenu-list-wellness li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff;   
+    }
+
+    .nav-title
+    {
+        width:100%;
+    }
+
+    ul.submenu-list-pregnancy li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff; 
+    }
+
+    .navbar-toggler:focus{
+        outline:none;
+    }
+
+    .navbar-collapse
+    {
+        background-color:#1d1f1e;
+        flex-direction: column;
+        border-radius:10px 10px 10px 10px;
+        position:relative;
+        top:-30px;
+        left:190px;
+        padding-top:30px;
+        padding-left:20px;
+        width:300px;
+    }
+    .navbar-collapse li {
+        margin-top:10px;
+    }
+
+
+    .navbar-collapse li a {
+        font-size:18px;
+    }
+
+
+   
+    #top-contact-details{
+        display: none;
+    }
+    .circle-section
+    {
+        display:none;
+    }
+
+    .ayur-introduction-layout
+    {
+        margin-top:90px;
+    }
+
+    .Service-title
+    {
+        text-align:center;
+    }
+    .Related-blogs
+    {
+        display:none;
+    }
+
+    .blog-content-section 
+    {
+        width:100% !important;
+    }
+
+
+}
+
+
+@media screen and (min-width:300px)  and (max-width:500px)
+{
+
+    .ayur-introduction-content
+    {
+        margin-top:50px;
+    }
+
+    .carousel-control-prev-icon
+    {
+        display:none;
+    }
+
+    #top-contact-details
+    {
+        display:none;
+    }
+
+    .navbar-toggler
+    {
+        position:relative;
+        top:-80px;
+        left:270px;
+    }
+
+
+    #recent-blog-container
+    {
+        display:none;
+    }
+   
+    .carousel-indicators li
+    {
+       display:none;
+    }
+
+    .carousel-control-next-icon 
+    {
+        display:none !important;
+    }
+    
+   .navbar-toggler{
+    color: rgb(255 255 255) !important;
+    border-color: rgb(255 255 255) !important;
+    background-color: #49af4c !important;
+   }
+
+   .navbar-collapse
+   {
+       background-color:#1d1f1e;
+       flex-direction: column;
+       border-radius:10px 10px 10px 10px;
+       position:relative;
+       top:-60px;
+       left:50px;
+       padding-top:30px;
+       padding-left:20px;
+       width: 100%;
+       height: 100%;
+   }
+   
+   /* .navbar-collapse li {
+       margin-top:5px;
+   } */
+
+
+   .navbar-collapse li a {
+       font-size:18px;
+   }
+
+   .dropdown-menu
+   {
+       position:absolute;
+       left:-150px !important; 
+       background:rgb(21, 102, 14) !important;
+       box-shadow:none !important;
+       border-radius:20px !important;
+       overflow:scroll;
+       color:#ffffff !important;
+       font-size:14px !important;
+       
+   }
+
+   ul.submenu-list-health
+   {
+    right:0px !important;
+   }
+
+   ul.submenu-list-health li a
+   {
+       color:#fff;
+       font-size:14px;
+   }
+
+   a.dropdown-item {
+    color: #fff;
+    font-size: 14px !important;
+}
+
+ 
+ul.submenu-list-wellness
+{
+    right:60px !important;
+}
+   
+
+ul.submenu-list-pregnancy
+{
+    right:60px !important;
+}
+
+   .service-ayur-icons
+   {
+       display:none;
+   }
+
+   .about-introduction h3
+   {
+      font-size:25px;
+   }
+
+   .contact-left-layout
+   {
+    font-size:15px;
+    line-height:15px;
+    
+   }
+
+   .blog-title-txt
+   {
+       position:relative;
+       left:70px !important;
+   }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+       .top-section{
+            width:100% !important;
+       }
+
+        .logo
+        {
+            width:145px !important;
+            height:60px !important;
+        }
+
+        button.navbar-toggler {
+            position: relative;
+            left: 256px;
+            top: -103px !important;
+        }
+
+            .ayur-introduction-layout
+            {
+                margin-top:-287px;
+            }
+
+            .ayur-introduction-content h2
+            {
+                font-size:20px !important;
+                text-decoration:underline;
+            }
+
+            .ayur-introduction-content p
+            {
+                font-size: 12px !important;
+                color:#fff;
+                text-align: justify;
+                width:100%;
+            }
+
+            .service-carousel
+            {
+                display:none;
+            }
+
+            .ayur-introduction-content a
+            {
+                font-size:13px !important;
+            }
+
+            #book-appointment
+            {   
+                border-radius:2px !important;
+            }
+
+            #why-ayurveda
+            {
+                display:none;
+            }
+
+            .icon-bar
+            {
+                display:none;
+            }
+
+            .first-package
+            {
+                width:100% !important; 
+            }
+
+            .first-package-header
+            {
+                width:100% !important; 
+            }
+
+            .second-package
+            {
+                width:100% !important; 
+            }
+
+            .second-package-header
+            {
+                width:100% !important; 
+            }
+
+            .third-package
+            {
+                width:100% !important; 
+            }
+
+            .third-package-header
+            {
+                width:100% !important; 
+            }
+
+            #client-section .insurance-images
+            {
+               display:flex;
+               margin-left:50px;
+            }
+
+            .footer
+            {
+                padding:20px 0px 0px 0px !important;
+            }
+
+            .Naadi-pariksha-banner span
+            {
+                font-size:20px !important;
+                line-height:20px !important;
+                position:absolute;
+                top: 250px !important;
+                left: 80px;
+                right:0 !important;
+                background-color: green;
+                border-radius: 20px 0px 0px 20px;
+                padding: 10px;
+                color:#fff;
+            }
+
+            div.collapse-faq 
+            {
+                height:auto !important;
+            }
+
+            .treatment-image-section
+            {
+                height:auto !important;
+            }
+
+            #tawkchat-minified-box
+            {
+                display:none !important;
+            }
+
+          
+        
+
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) 
+{
+
+        .logo
+        {
+            width:145px !important;
+        }
+
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px)
+{
+    .logo
+    {
+        width:145px !important;
+    }
+
+    .navbar-toggler
+    {
+        position:relative;
+        left:300px !important;
+        border-radius:20px !important;
+    }
+
+    .navbar-toggler:focus
+    {
+        outline:none;
+    }
+
+    .navbar-collapse {
+        background-color: #1d1f1e;
+        flex-direction: column;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        top: -84px;
+        left: -46px;
+        padding-top: 5px;
+        padding-left: 20px;
+        width: 100vw;
+    }
+
+    .copyright
+    {
+        padding:20px !important;
+    }
+
+    .ayur-introduction-content p
+    {
+        font-size: 17px !important;
+        font-weight: 300;
+    }
+
+    .about-doctor-pic
+    {
+        margin-left:50px !important;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 380px)
+{
+
+
+    #top-contact-details
+    {
+        display:none;
+    }
+
+    .navbar-toggler
+    {
+       position:relative;
+       top:-57px;
+       left:165px;
+       color:#ffffff !important;
+       background-color: rgb(23, 116, 20) !important;
+       border-radius:50px !important;
+    }
+
+    .navbar-toggler:focus
+    {
+       outline:none;
+    }
+
+    .ayur-introduction-content h2
+    {
+        font-size:23px !important;
+        line-height:20px;
+    }
+
+    .ayur-introduction-content p
+    {
+        text-align:justify;
+        line-height:22px;
+        padding:0 !important;
+    }
+
+    #book-appointment
+    {
+        border-radius:0px !important;
+    }
+
+    #why-ayurveda
+    {
+        border-radius:0px !important;
+    }
+
+    .carousel-control-prev-icon
+    {
+        display:none !important;
+    }
+
+    /* #package-container
+    {
+        margin-top:600px !important;
+    } */
+    
+    .first-package
+    {
+        width:100% !important;
+    }
+
+    .first-package-header
+    {
+        width:100% !important;
+    }
+
+    .second-package
+    {
+        width:100% !important;
+    }
+
+    .second-package-header
+    {
+        width:100% !important;
+    }
+
+    .third-package
+    {
+        width:100% !important;
+    }
+
+    .third-package-header
+    {
+        width:100% !important;
+    }
+
+    #recent-blog-container
+    {
+     display:none !important;
+    }
+
+    .footer{
+        padding:30px 0px 0px 0px !important;
+    }
+
+
+        
+    .navbar-collapse
+    {
+        /* background-color:#1f8b31; */
+        flex-direction: column;
+        position:relative;
+        top: -80px;
+        left: -46px;
+        padding-top:4px;
+        padding-bottom:20px;
+        padding-left:20px;
+        width:100vw;
+    }
+
+
+    .navbar-collapse li {
+        margin-top:10px;
+    }
+
+
+    .navbar-collapse li a {
+        font-size:16px;
+    }
+
+    .dropdown-menu
+    {
+        position:absolute;
+        width:300px !important;
+        left:-150px !important; 
+        margin-top: 20px !important;
+        margin-left: -55px !important;
+        background: rgb(31 48 28) !important;
+        box-shadow:none !important;
+        border-radius:20px !important;
+        overflow:scroll;     
+    }
+
+    .icon-bar
+    {
+        display:none !important;
+    }
+
+    .copyright
+    {
+        padding:5px;
+    }
+
+    .nav-leaf
+    {
+        color:#fff !important;
+    }
+
+    ul.submenu-list-health
+    {
+        padding:0 !important;
+        padding-bottom:40px !important;
+        /* margin-left:40px !important; */
+    }
+
+
+    ul.submenu-list-health li a
+    {
+        color:#fff;
+        font-size:14px;
+    }
+
+
+    ul.submenu-list-doctor li a
+    {
+        font-size:13px;
+        padding:0;
+
+        color:#ffffff;
+    }
+
+    ul.submenu-list-wellness li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff;   
+    }
+
+   
+
+    ul.submenu-list-pregnancy li a
+    {
+        font-size:13px;
+        padding:0;
+        color:#ffffff; 
+    }
+
+    .service-ayur-icons
+    {
+        display:none !important;
+    }
+
+    .about-introduction
+    {
+        padding:30px 0px 0px 0px !important;
+        text-align:center !important;
+    }
+
+    .about-introduction p
+    {
+        text-align:justify !important;
+    }
+
+    #team-section
+    {
+        padding:0 !important;
+    }
+
+    .about-doctor-pic
+    {
+        margin-left:50px !important;
+    }
+
+    .blog-content-section
+    {
+        width:100% !important;
+    }
+
+    .Related-blogs
+    {
+        display:none !important;
+    }
+
+    .breadcrumb li
+    {
+        font-size:12px !important;
+    }
+
+
+}
+
+
+@media(width:734px)
+{
+    button.navbar-toggler {
+        position: relative !important; 
+        top: -88px !important;
+        left: 600px !important;
+    }
+
+    .logo
+    {
+        margin-top:15px !important;
+    }
+}
+
+@media only screen and (max-width: 444px)
+{
+.dropdown-menu {
+    position: absolute;
+    width: 300px !important;
+    left: -150px !important;
+    margin-top: 20px !important;
+    margin-left: -55px !important;
+    background: rgb(31 48 28) !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    overflow: scroll;
+}
+}
+
+
+@media only screen and (width: 414px)
+{
+button.navbar-toggler {
+    position: relative;
+    left: 290px !important;
+    top: -103px !important;
+}
+
+.dropdown-toggle::after
+{
+    position:relative;
+    top:4px !important
+}
+
+}
+
+
+
+
+@media only screen and (width: 428px)
+{
+button.navbar-toggler {
+    position: relative;
+    left: 256px !important;
+    top: -103px !important;
+}
+
+.dropdown-toggle::after
+{
+    position:relative;
+    top:4px !important
+}
+
+
+}
+
+
+@media(max-width:486px)
+{
+    .navbar-nav
+    {
+        align-items: flex-start !important;
+        text-align:left !important;
+    }
+
+    li.nav-item.dropdown {
+        top: 7px !important;
+        margin-bottom: 14px !important;
+    }
+}
+
+
+
+@media(width:486px)
+{
+    div.dropdown-menu
+    {
+        margin-top:10px !important;
+        width:280px !important;
+    }
+
+    .dropdown-toggle::after
+{
+    position:relative;
+    top:4px !important
+}
+
+}
+
+@media(width:767px)
+{
+    .navbar-toggler {
+        position: relative;
+        left: 607px !important;
+    }
+
+    .col-md-2.col-lg-2.logo-div {
+        margin-top: -25px;
+    }
+
+    .dropdown-toggle::after
+{
+    position:relative;
+    top:4px !important
+}
+
+}
+
+@media(min-width:992px) and (max-width:1024px)
+{
+    a.btn.btn-danger.home-book-appointment.h-25
+    {
+        display:none !important;
+    }
+}
+
+/* @media(width:412px)
+{
+    button.navbar-toggler
+    {
+        top:-108px !important;
+    }
+} */
+
+
+@media(max-width:767px)
+{
+    .Treatment-left-service-list
+    {
+        margin-top:50px !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media(max-width:486px)
+{
+    #first-footer-section
+    {
+        width:100% !important;
+        text-align:left !important;
+        
+    }
+
+    div#first-footer-section h5 {
+        font-weight: bold;
+    }
+
+    div#second-footer-section {
+        width: 100% !important;
+        text-align: left;
+    }
+
+    div#second-footer-section h5 {
+        font-weight: bold;
+    }
+
+    div#third-footer-section {
+        width: 100% !important;
+        text-align: left;
+    }
+
+
+    div#third-footer-section h5 {
+        font-weight: bold;
+    }
+
+    .col-md-8.subscribe-layout {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    div.subscribe-wrapper {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    input[type=text]
+    {
+        padding:15px 10px;
+        margin:0px !important;
+    }
+
+    input.subscribe
+    {
+        width:100% !important;
+        text-align: center !important;
+    }
+
+    #client-section .insurance-images
+    {
+        margin-left:0px !important;
+    }
+
+    .row.ml-1.mr-1.mt-1.insurance-layout {
+        margin-left: 0px !important;
+    }
+
+    .col-md-2.insurance-logos {
+        width: 50%;
+        padding: 0;
+    }
+
+    .col-md-7.mt-3.justify-content-center.d-flex.doctor-pic-team {
+        display: grid !important;
+    }
+
+    .about-doctor-pic
+    {
+        margin-left:0px !important;
+    }
+
+    .about-doctor-pic-one
+    {
+        margin-left:0px !important;
+        margin-top:20px !important;
+    }
+
+
+}
+
+
+@media(min-width:1000px) and (max-width:1200px)
+{
+    div.dropdown-menu
+    {
+    left: -530px !important;
+    width: 995px !important;
+    }
+
+    a.btn.btn-danger.home-book-appointment.h-25
+    {
+        display:none !important;
+    }
+}

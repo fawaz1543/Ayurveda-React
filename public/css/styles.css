@@ -1,0 +1,3696 @@
+
+         body{
+            background-image: url('../images/bg-lines.png');
+            overflow-x:hidden;
+            padding:0;
+            margin:0;
+            z-index:1;
+         }
+
+
+
+         body::-webkit-scrollbar {
+            width: 9px;
+            margin-right:5px;
+          }
+          
+          
+          /* Track */
+          ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(35, 182, 30, 0.3); 
+            -webkit-border-radius: 10px;
+            margin-right:5px;
+            border-radius: 10px;
+          }
+          
+          
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background-image: linear-gradient(45deg, rgb(109, 161, 46), rgb(95, 197, 150));
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+          }
+          
+          
+          ::-webkit-scrollbar-thumb:window-inactive {
+            background-image: linear-gradient(45deg, rgb(109, 161, 46), rgb(95, 197, 150));
+          }
+
+          
+
+         /* Homepage Styles Starts Here  */ 
+
+         .icon-bar {
+            position: fixed;
+            top: 50%;
+            left: 1%;
+            z-index: 9999;
+            -webkit-transform: translateY(-60%);
+            -ms-transform: translateY(-60%);
+            transform: translateY(-60%);
+            border: 1px solid #dad7d7;
+            padding: 1px;
+          }
+          
+          .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+          }
+                  
+          .facebook {
+            /* background: #3B5998; */
+            border-bottom:1px solid #ffffff;
+            background: #ebf0e2;
+            /* border-radius: 0px 10px 0px 0px; */
+            color: #6b9e2d;
+          }
+
+          .download
+          {
+            /* background: #dc3545; */
+            /* border-radius: 10px 0px 0px 10px; */
+            background: #ebf0e2;
+            border-bottom:1px solid #ffffff;
+            color: white;   
+          }
+          
+          .instagram {
+            /* background: #bb2536; */
+            /* background-color:#e79324; */
+            border-bottom:1px solid #ffffff;
+            background: #ebf0e2;
+            color: white;
+          }
+          
+          .google {
+            background: #ebf0e2;
+            border-bottom:1px solid #ffffff;
+            color: white;
+          }
+          
+          .linkedin {
+            background: #ebf0e2;
+            border-bottom:1px solid #ffffff;
+            color: white;
+          }
+          
+          .youtube {
+            background: #ebf0e2;
+            border-bottom:1px solid #ffffff;
+            /* border-radius: 0px 0px 10px 0px; */
+            color: white;
+          }
+
+          .icon-bar-right {
+            position: fixed;
+            top: 50%;
+            right:0;
+            z-index:9999;
+            -webkit-transform: translateY(-60%);
+            -ms-transform: translateY(-60%);
+            transform: translateY(-60%);
+          }
+
+          i.nav-leaf
+          {
+              color:green;
+          }
+
+
+          .icon-bar-right a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+          }
+
+          .icon-bar a:hover + i.facebook {
+              color:green;
+        }
+
+
+        #fixedicons{
+            color : #20301C;
+             font-size : 25px ;
+        }
+
+        #fixedicons:hover{
+            color : green;
+
+        }
+        
+
+               
+          /* @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          } */
+        
+
+        .top-section
+        {
+            width:100vw;
+            background-color:#20301C;
+            height:102px;
+            position:fixed;
+            z-index:500;
+        }
+        
+
+        .logo
+        {
+            width:145px !important;
+            height:70px !important;
+            margin-top:30px;
+            position:relative;
+            top:-35px;
+        }
+
+
+        h5.nav-title
+        {
+            font-size: 13px;
+            margin-left: 20px;
+            font-weight: bold ;
+            background-image: linear-gradient(45deg, rgb(109, 161, 46), rgb(95, 197, 150));
+            border-radius:0px 15px 0px 15px;
+            /* box-shadow: 1px 1px 1px 1px #0d380d; */
+            padding  :10px ;
+            color : #fff;
+        }
+
+
+        .carousel
+        {
+            top:102px;
+            height:502px;
+        }
+
+         .carousel-inner 
+        {
+            width:100vw !important;
+        }
+
+       /* .carousel .slide .service-carousel > .carousel-inner
+        {
+            width:100%;
+        } */
+
+        .navbar
+        {
+            top:-10px !important;
+        }
+
+        ul.navbar-nav li
+        {
+            padding-left:35px;
+            font-size:16px;
+            Position:relative;
+            cursor:pointer;
+        }  
+
+        ul.navbar-nav li a:hover{
+            text-decoration:none;
+            color:#ffffff;
+        }
+
+        ul.navbar-nav li.nav-item .active
+        {
+            background-color:#dc3545;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top:2px;
+            padding-bottom:2px;
+            cursor:pointer;
+        }
+       
+        /* .navlink--active
+        {
+            background-color:#dc3545;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top:2px;
+            padding-bottom:2px;
+            border-radius:5px;
+        }
+         */
+
+         
+        div.dropdown-menu
+        {
+            position:absolute;
+            left:-630px;
+            width:1150px;
+            height:483px;
+            background-image: url('../images/bg-lines.png');
+            box-shadow: -3px 2px 13px 1px #4d504c;
+            border-radius: 2px 2px 50px 50px;
+        }
+
+        
+        ul.navbar-nav li:hover > div.dropdown-menu {
+            display: block !important;
+        }
+
+        ul.navbar-nav li:hover > ul.submenu-list li a{
+            color:#ffffff;
+        }
+
+
+        ul.submenu-list
+        {
+            padding:20px;
+            font-size:13px;
+            line-height:18px;
+            list-style-type: none;
+            margin-left:0px !important;
+            position:relative;
+            right:40px;
+            width:100%;
+            font-weight:400;
+        }
+
+        ul.submenu-list-doctor
+        {
+            padding:20px;
+            font-size:13px;
+            line-height:18px;
+            list-style-type: none;
+            margin-left:40px !important;
+            position:relative;
+            top:-20px;
+            right:40px;
+            width:100%;
+            font-weight:400;
+        }
+
+        ul.submenu-list-doctor li a:hover > .fa-leaf {
+            color:#fff !important;
+        }
+
+
+        ul.submenu-list-health
+        {
+            padding:20px;
+            font-size:13px;
+            line-height:18px;
+            list-style-type: none;
+            margin-left:0px !important;
+            position:relative;
+            right:40px;
+            width:100%;
+            font-weight:400;
+        }
+
+        ul.submenu-list-health li a:hover > .fa-leaf {
+            color:#fff !important;
+        }
+
+        ul.submenu-list-wellness
+        {
+            padding-top:20px;
+            font-size:13px;
+            line-height:18px;
+            list-style-type: none;
+            margin-left:40px !important;
+            margin-bottom:-20px;
+            position:relative;
+            top:-40px;
+            right:60px;
+            width:100%;
+            font-weight:400;
+        }
+
+        ul.submenu-list-wellness li a:hover > .fa-leaf {
+            color:#fff !important;
+        }
+
+        ul.submenu-list-pregnancy
+        {
+            padding-top:50px;
+            font-size:13px;
+            line-height:18px;
+            list-style-type: none;
+            margin-left:40px !important;
+            position:relative;
+            top:-50px;
+            right:60px;
+            width:100%;
+            font-weight:400;
+        }
+
+        a.nav-link
+        {
+            cursor:pointer;
+        }
+
+        div#recent-blog-container a {
+            color: #fff !important;
+        }
+
+
+        ul.submenu-list-pregnancy li a:hover > .fa-leaf {
+            color:#fff !important;
+        }
+
+
+        .dropdown-item:focus, .dropdown-item:hover
+        {
+            /* background-color:#429f22 !important; */
+            background-image: linear-gradient(45deg, rgb(109, 161, 46), rgb(95, 197, 150)) !important;
+            border-radius:5px;
+            color:#ffffff;
+          
+        }
+        .navbar-nav
+        {
+            align-items: center;
+        }
+
+        ul.navbar-nav li:hover > i.fa .fa-arrow-right
+        {
+            color:#ffffff;
+        } 
+
+       .banner
+       {
+           height:533px;
+           max-width:100%;
+           margin-top: 101px;
+           position:relative;
+           overflow:auto;
+       }
+
+       .banner ul li
+       {
+           height:533px;
+           max-width:100%;
+           list-style: none;
+       }
+
+       .circle-section
+       {
+           position:relative;
+           top:-80px;
+           left:190px;
+           margin:0 auto;
+       }
+       circle-txt
+       {
+           position:relative;
+       }
+
+       .circle-layout-one
+       {
+           width:150px;
+           height:150px;
+           z-index:200;
+           position:relative;
+           border-radius:100px;
+           padding:20px;
+           align-items: center;
+           text-align: center;
+           color:#ffffff;
+           display:inline-flex;
+           transition:2s;
+           margin-left:40px;
+           background-color:#aa414f;
+           background-image: url('../images/circle-bg1.png');
+           background-size: cover;
+           background-blend-mode: soft-light;
+           /* animation-name: spin;
+           animation-duration: 5000ms;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;  */
+       }
+
+       /* @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+     } */
+
+
+       .circle-layout-one:hover {
+         background-color: #852b37;
+         animation-name:none !important;
+       }
+
+       .circle-layout-one span{ 
+          cursor:pointer;
+      }
+
+      .div-circle-one
+      {
+        width:300px;
+        height:404px;
+        background-color:#aa414f;
+        opacity:0.8;
+        padding:20px;
+        position:absolute;
+        display:none;
+        top:-322px;
+        left:-30px;
+        z-index:100;
+      }
+
+      .circle-layout-one:hover + .div-circle-one
+      {
+        display:block;
+      }
+
+       .circle-layout-two
+       {
+           width:150px;
+           height:150px;
+           position:relative;
+           border-radius:100px;
+           padding:20px;
+           z-index:200;
+           align-items: center;
+           text-align: center;
+           transition:0.5s;
+           color:#ffffff;
+           display:inline-flex;
+           margin-left:40px;
+           background-color:#6ca007;
+           background-image: url('../images/circle-bg2.png');
+           background-size: cover;
+           animation-name: spin;
+           animation-duration: 5000ms;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear; 
+       }
+       .circle-layout-two:hover{
+        background-color: #507506;
+      }
+      .circle-layout-two span{
+       cursor:pointer;
+     }
+
+
+     .div-circle-two
+     {
+       width:300px;
+       height:532px;
+       opacity:0.8;
+       background-color:#6ca007;
+       position:absolute;
+       display:none;
+       top:-452px;
+       left:170px;
+       z-index:100;
+     }
+
+     .circle-layout-two:hover + .div-circle-two
+     {
+       display:block;
+     }
+
+
+       .circle-layout-three
+       {
+           width:150px;
+           height:150px;
+           position:relative;
+           border-radius:100px;
+           padding:20px;
+           z-index:200;
+           align-items: center;
+           transition:0.5s;
+           text-align: center;
+           color:#ffffff;
+           display:inline-flex;
+           margin-left:40px;
+           background-color:#a3a532;
+           background-image: url('../images/circle-bg3.png');
+           background-size: cover;
+           animation-name: spin;
+           animation-duration: 5000ms;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear; 
+           
+       }
+
+       .circle-layout-three:hover{
+        background-color: #818327;
+      }
+      .circle-layout-three span{
+       cursor:pointer;
+     }
+     
+
+     .div-circle-three
+     {
+       width:300px;
+       height:532px;
+       opacity:0.8;
+       background-color:#a3a532;
+       position:absolute;
+       display:none;
+       top:-452px;
+       left:360px;
+       z-index:100;   
+     }
+
+     .circle-layout-three:hover + .div-circle-three
+     {
+       display:block;
+     }
+
+
+
+       .circle-layout-four
+       {
+           width:150px;
+           height:150px;
+           position:relative;
+           border-radius:100px;
+           padding:20px;
+           z-index:200;
+           align-items: center;
+           text-align: center;
+           color:#ffffff;
+           transition:0.5s;
+           display:inline-flex;
+           margin-left:40px;
+           background-color:#c052a2;
+           background-image: url('../images/circle-bg4.png');
+           background-size: cover;
+           animation-name: spin;
+           animation-duration: 5000ms;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear; 
+       }
+
+       .circle-layout-four:hover{
+        background-color: #913c7a;
+      }
+      .circle-layout-four span{
+       cursor:pointer;
+     }
+
+
+     .div-circle-four
+     {
+       width:300px;
+       height:532px;
+       opacity:0.8;
+       background-color:#c052a2;
+       position:absolute;
+       display:none;
+       top:-452px;
+       left:560px;
+       z-index:100;
+     }
+
+     .circle-layout-four:hover + .div-circle-four
+     {
+       display:block;
+     }
+
+
+
+       .circle-layout-five
+       {
+           width:150px;
+           height:150px;
+           position:relative;
+           border-radius:100px;
+           padding:20px;
+           z-index:200;
+           align-items: center;
+           text-align: center;
+           transition:0.5s;
+           color:#ffffff;
+           display:inline-flex;
+           margin-left:40px;
+           background-color:#e17f43;
+           background-image: url('../images/circle-bg5.png');
+           background-size: cover;
+           animation-name: spin;
+           animation-duration: 5000ms;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear; 
+       }
+       .circle-layout-five:hover{
+        background-color: #b86634;
+      }
+      .circle-layout-five span{
+       cursor:pointer;
+     }
+
+     .div-circle-five
+     {
+       width:300px;
+       height:532px;
+       opacity:0.8;
+       background-color:#e17f43;
+       position:absolute;
+       display:none;
+       top:-452px;
+       left:750px;
+       z-index:100;
+     }
+
+     .circle-layout-five:hover + .div-circle-five
+     {
+       display:block;
+     }
+
+     .service-carousel
+     {
+         margin-top:-100px;
+     }
+
+     .carousel-inner
+     {
+        box-shadow: 1px 1px 8px 3px #000;
+     }
+
+
+     .ayur-introduction-layout
+     {
+        background-color:#ffffff; 
+        background-image:url('../images/bg-lines.png');
+        border:1px solid #EAEAEA;
+        box-shadow: 0px 0px 10px 0px #b7b4b4;
+        color:#333333;
+        padding-top:20px;
+        padding-bottom:20px;
+        border-radius:0px 0px 20px 20px;
+     }
+
+
+       .form-text-box
+       {
+           width:100%;
+           height:40px;
+           margin-top:10px;
+           margin-left:5px;
+           margin-right:5px;
+           padding-left:10px;
+           background-color:#ffffff;
+           border:1px solid #c7c5c5;
+           border-radius:8px;
+           outline:none;
+           font-size:13px;
+
+       }
+       .appointment-wrapper
+       {
+           padding:20px;
+       }
+
+       .datetime-edit-field
+       {
+        color: rgb(192, 189, 189) !important;
+       }
+
+       ::placeholder 
+       {
+         color: rgb(192, 189, 189);
+         font-weight:300;
+         font-size:12px;
+         margin-left:20px;
+         padding-left:20px;
+         opacity: 1; 
+        }
+
+        :-ms-input-placeholder { 
+         color:  rgb(43, 41, 41);
+        }
+
+        ::-ms-input-placeholder { 
+        color:  rgb(43, 41, 41);
+        }
+
+        input.submit-button
+        {
+            background-color: #dc3545;
+            border:1px solid #dc3545;
+            color:#ffffff;
+            margin-top:20px;
+            cursor:pointer;
+            width:50%;
+            height:45px;
+        }
+        input.submit-button:hover{
+            background-color:#f05363;
+            border:1px solid #f05363;
+        }
+        
+
+        div.service-images
+        {
+            height:443px;
+            width:100%;
+            display:flex;
+        }
+
+        .service-gallery-span
+        {
+            position : relative ;
+            top : -20px ;
+            left  : 0px;
+            background-image: linear-gradient(45deg, rgb(109, 161, 46), rgb(95, 197, 150));
+            font-size: 19px;
+            color : #fff ;
+            font-weight : bold ;
+            opacity:0.95;
+            padding : 5px ;
+            border-radius : 20px 0px 20px 0px; 
+        }
+
+
+        #txt-elakizhi
+        {
+            width:250px;
+            height:40px;
+            background-color:#ffffff;
+            opacity:0.8;
+        }
+
+
+        .img-first-section
+        {
+            width:380px;
+            height:443px;
+            padding:20px;
+            background-color:#6ca007;
+            background-image:url('../images/arthritis@2x.png');
+            background-size: cover;
+            transition:2s;
+            border-radius:5px;
+            transition: transform .2s ease;
+        }
+  
+         .img-first-section:hover {
+            transform: scale(1.1);
+        }
+
+        .image-first-content
+        {
+            border:1px solid #CCC;
+            width:100%;
+            height:380px;
+            padding:20px;
+            font-size:12.5px;
+            text-align:justify;
+            margin:5px 5px 5px 0px;
+            display:none;
+            transition:2s;
+            color:#ffffff;
+            cursor:pointer;
+        }
+
+        .img-first-section:hover>.image-first-content
+        {
+            display:block;
+            transition:2s;
+        }
+
+        
+
+        .img-second-section
+        {
+            width:380px;
+            height:443px;
+            margin-left:25px;
+            background-color:#ffffff;
+            border-radius:5px; 
+        }
+
+
+        .first-inner-second-image
+        {
+            width:380px;
+            height:210px;
+            border-radius:5px;
+            padding:20px;
+            transition:transform 0.2s ease;
+            background-color:#c052a2;
+            background-image:url(../images/Abhyangam@2x.png);
+            background-size: cover;
+        }
+
+        .first-inner-second-image:hover{
+            transform: scale(1.1);
+    }
+
+
+        .second-section-first-inner-content
+        {
+            border:1px solid #CCC;
+            width:100%;
+            height:170px;
+            padding:20px;
+            font-size:12.5px;
+            text-align:justify;
+            overflow: hidden;
+            margin:5px 5px 5px 0px;
+            display:none;
+            transition:2s;
+            color:#ffffff;
+            cursor:pointer;
+        }
+
+
+        .first-inner-second-image:hover>.second-section-first-inner-content
+        {
+            display:block;
+            transition:2s;
+        }
+
+        .second-inner-second-image
+        {
+            width:380px;
+            height:210px;
+            margin-top:23px;
+            padding:20px;
+            border-radius:5px;
+            transition:transform 0.2s ease;
+            background-color:#c052a2;
+            background-image:url('../images/slimming@2x.png');
+            background-size: cover;
+        }
+
+        .second-inner-second-image:hover{
+            transform: scale(1.1);
+    }
+
+
+
+        .second-section-second-inner-content
+        {
+            border:1px solid #CCC;
+            width:100%;
+            height:170px;
+            padding:20px;
+            overflow: hidden;
+            font-size:12.5px;
+            text-align:justify;
+            margin:5px 5px 5px 0px;
+            display:none;
+            transition:2s;
+            color:#ffffff;
+            cursor:pointer;
+
+        }
+
+        .second-inner-second-image:hover>.second-section-second-inner-content
+        {
+            display:block;
+            transition:2s;
+        }
+
+        .img-third-section
+        {
+            width:320px;
+            height:443px;
+            margin-left:25px;
+            padding:20px;
+            background-color:#e79324;
+            transition:transform 0.2s ease;
+            background-image:url('../images/Pregnancy@2x.png');
+            background-size:cover;
+            border-radius:5px; 
+        }
+
+        .img-third-section:hover{
+            transform: scale(1.1);
+    }
+
+
+
+
+        .third-second-inner-content
+        {
+            border:1px solid #CCC;
+            width:100%;
+            height:390px;
+            padding:20px;
+            font-size:12.5px;
+            text-align:justify;
+            overflow: hidden;
+            margin:5px 5px 5px 0px;
+            display:none;
+            transition:2s;
+            color:#ffffff;
+            cursor:pointer;
+        }
+
+        .img-third-section:hover>.third-second-inner-content
+        {
+            display:block;
+            transition:2s;
+        }
+
+        div.treatment-list-wrapper
+        {
+            width:100%;
+            padding:20px;
+        }
+        ul.treatment-list
+        {
+            float:left;
+            list-style-type: none;
+            width:25%;
+            line-height:30px;
+            font-weight:300;
+            font-size:14px;
+        }
+        ul.treatment-list li a
+        {
+            color:#333333;
+            text-decoration:none;
+        }
+        
+        ul.treatment-list::before
+        {
+          content:"";
+          width:10px;
+          height:10px;
+
+        }
+
+        .Service-title
+        {
+            font-weight:bold;
+            background-color:#1f301c;
+            border-radius:10px;
+            color:#fff;
+            padding:10px;
+            margin-bottom:20px;
+            align-items: center;
+            text-align: center;
+        }
+
+        div.package-wrapper
+        {
+            width:100%;
+            margin-top:20px;
+            display:flex;
+
+        }
+        div.first-package
+        {
+          width: 300px;
+          height:570px;
+          margin-top:10px;
+          text-align: center;
+          background-color:#ffffff;
+          border-radius:50px 2px 50px 2px;
+          border:1px solid #e17f43;  
+        }
+
+        div.second-package
+        {
+          width: 300px;
+          height:570px;
+          margin-top:10px;
+          text-align: center;
+          background-color:#ffffff;
+          border-radius:50px 2px 50px 2px;
+          border:1px solid  #6ca007;    
+        }
+
+        div.third-package
+        {
+          width: 300px;
+          height:570px;
+          margin-top:10px;
+          text-align: center;
+          background-color:#ffffff;
+          border-radius:50px 2px 50px 2px;
+          border:1px solid  #c052a2;  
+        }
+
+
+        div.first-package-header
+        {
+           width:298px;
+           height:80px;
+           padding: 30px 0px 0px 0px;
+           color:#ffffff;
+           border-radius:47px 2px 48px 2px;
+           background-color:#e17f43;  
+        }
+
+
+        div.second-package-header
+        {
+           width:298px;
+           height:80px;
+           padding: 30px 0px 0px 0px;
+           color:#ffffff;
+           border-radius:47px 2px 48px 2px;
+           background-color:#6ca007;  
+        }
+
+
+        div.third-package-header
+        {
+           width:298px;
+           height:80px;
+           padding: 30px 0px 0px 0px;
+           color:#ffffff;
+           border-radius:47px 2px 48px 2px;
+           background-color:#c052a2;  
+        }
+
+
+        ul.package-list
+        {
+            color:#333333;
+            width:100%;
+            padding:0;
+            text-align: center;
+            list-style-type: none;
+            margin-top:20px;
+        }
+
+        ul.package-list li{
+            width:100%;
+            height:53px;
+            line-height: 20px;
+        }
+
+        img.insurance-images
+        {
+            width: 150px;
+            height:80px;
+            margin-top : 5px;
+            margin-left:5px;
+        }
+
+
+        #client-section
+        {
+            margin-top:30px;
+            margin-bottom:40px;
+            background-color:#ededed;
+            height:auto;
+            padding:15px;
+            border-radius:5px;
+        }
+
+        .partners-wrapper
+        {
+           display:flex; 
+        }
+
+        .partners-list
+        {
+            display:flex;
+            margin-top:10px;
+        }
+
+        .partners-list img{
+            margin-left:8px;
+        }
+
+        .testimonials-section
+        {
+            width:100%;
+        }
+
+        div.testimonial-wrapper
+        {
+            width:100%;
+            margin-top:10px;
+            margin-bottom:20px;
+            display:flex;
+        }
+
+        div.first-testimonial
+        {
+ 
+            height:417px;
+            padding:26px;
+            background-color:#ffffff;
+            border-radius:2px;
+            margin-top:10px;
+            border-top:3px solid #e17f43;
+            box-shadow:-1px 1px 12px 5px #EAEAEA;
+        }
+        
+
+        .rating
+        {
+            width:100%;
+            height:40px;
+            justify-content: center;
+            display:flex;
+        }
+
+        i.fa-star
+        {
+            color:rgba(247, 206, 26, 0.94);
+        }
+        i.fa-star:hover
+        {
+            color:rgba(247, 206, 26, 0.94);
+        }
+
+        a{
+            cursor:pointer;
+            color:#fff;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+        .testimonial-content
+        {
+            width:100%;
+            height:200px;
+            font-weight:300;
+            line-height:25px;
+            padding:5px 10px 20px 20px;
+            overflow:hidden;
+            margin-bottom:20px;
+            font-size:15px;
+            text-align:justify;
+        } 
+        .testimonial-wrapper
+        {
+            display:flex;
+        }
+        
+        .testimonial-image
+        {
+            width:100px;
+            height:100px;
+            display:flex;
+            margin-top:10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border-radius:100px;
+        }
+
+        .testimonial-title
+        {
+            width:100px;
+            height:50px;
+            margin-left:30px;
+            margin-top: 40px;
+            font-size:14px;
+            font-weight:bold;
+        }
+
+        div.second-testimonial
+        {
+
+            height:417px;
+            background-color:#ffffff;
+            border-radius:2px;
+            padding:26px;
+            margin-top:10px;
+            border-top:3px solid #6ca007;
+            box-shadow:-1px 1px 12px 5px #EAEAEA;
+        }
+
+        div.third-testimonial
+        {
+
+            height:417px;
+            background-color:#ffffff;
+            border-radius:2px;
+            padding:26px;
+            margin-top:10px;
+            border-top:3px solid #c052a2;
+            box-shadow:-1px 1px 12px 5px #EAEAEA;
+        }
+
+        div.blog-wrapper
+        {
+            margin-top:10px;
+            margin-bottom:20px;
+            display:flex;
+         
+
+        }
+
+        .first-section-blog
+        {
+            width:265px;
+            height:443px;
+            background-color:#aa414f;
+            background-image:url('../images/Blog-HomePage/Blog-NadiPariksha.jpg');
+            background-size: cover;
+        }
+
+        .first-section-header{
+            width:265px;
+            height:100px;
+            padding:20px;
+            background-color:#a3a532;
+        }
+        .first-section-header span{
+            color:#ffffff;
+            cursor:pointer;
+            font-size: 20px; 
+            line-height: 20px;
+            font-weight:bold;
+        }
+
+        a.blog-title
+        {
+            transition:0.5s;
+            text-decoration:none;
+        }
+
+        a.blog-title:hover
+        {
+            color:#000;
+            margin-left:10px;
+        }
+
+
+        .second-section-blog
+        {
+            width:420px;
+            height:443px;
+        }
+
+       
+        .second-inner-first-blog
+        {
+            width:453px;
+            height:211px;
+            display:flex;
+            float:left;
+            background-color:#e17f43;
+        }
+
+        .second-inner-first-image
+        {
+            width:253px;
+            height:211px;
+            background-color: #3b5ae6;
+            background-image:url('../images/Blog-HomePage/Blog-Nasyam.jpg');
+            background-size: cover;
+        }
+
+
+        .second-inner-first-header
+        {
+            width:200px;
+            height:211px;
+            max-height:100vh;
+            display:flex;
+            padding:5px 5px 5px 25px ;
+            align-items: center;
+            text-align:center;
+            background-color: #6ca007;
+        }
+
+
+        .second-inner-second-header
+        {
+            width:250px;
+            height:211px;
+            display:flex;
+            color:#ffffff;
+            line-height:25px;
+            max-height:100vh;
+            padding:5px 5px 5px 25px ;
+            align-items: center;
+            text-align:center;
+            background-color: #a3a532;
+
+        }
+
+
+        .second-inner-second-header span
+        {
+            color:#ffffff;
+            cursor:pointer;
+            font-size: 20px; 
+            line-height: 20px;
+            font-weight:bold;
+            color: #ffffff;
+        }
+
+        .second-inner-second-header  span a:hover{
+            transition:0.4s;
+        }
+
+
+        .second-inner-second-header  span a:hover{
+            text-decoration:underline;
+            color:#000;
+            margin-left:10px;
+
+        }
+
+        .second-inner-second-imageblog
+        {
+            width:203px;
+            height:211px;
+            background-color: #3b5ae6;
+            background-image:url('../images/Blog-HomePage/Blog-Shirodara.jpg');
+            background-size: cover;
+        }
+
+
+
+        .second-inner-first-header span
+        {
+            color:#ffffff;
+            cursor:pointer;
+            font-size: 20px; 
+            line-height: 20px;
+            font-weight:bold;
+            color: #ffffff;
+        }
+
+        .second-inner-first-header  span a:hover{
+            transition:0.4s;
+        }
+
+
+        .second-inner-first-header  span a:hover{
+           
+            color:#000;
+            margin-left:10px;
+
+        }
+
+
+        .second-inner-second-blog
+        {
+            width:453px;
+            height:211px;
+            display:flex;
+            float:left;
+            background-color:#a3a532;
+            margin-top:20px;
+        }
+
+        .third-section-blog
+        {
+            height:443px;
+            background-color:#6ca007;
+            
+        }
+
+       .third-section-blog-image
+       {
+           height:330px;
+           background-color:#09F;
+           background-image:url('../images/Blog-HomePage/Blog-Cervical.jpg');
+           background-size: cover;
+       }
+
+
+      .third-section-blog-header
+      { 
+        height:113px;
+        padding:20px;
+        color:#ffffff;
+        background-color:#6ca007;
+      }
+
+
+      .third-section-blog-header span
+      { 
+        color:#ffffff;
+        cursor:pointer;
+        font-size: 20px; 
+        line-height: 20px;
+        font-weight:bold;
+        color: #ffffff;
+      }
+
+        div.footer
+        {
+            width:100vw;
+            height:auto;
+            padding:50px;
+            margin:0 auto;
+            background-color:#21301c;
+        }
+        div.footer-wrapper
+        {
+            width:100%;
+            padding:20px;
+            margin-top:20px;
+        }
+        
+        div.footer-top-section
+        {
+            width:100%;
+            height:200px;
+            display:flex;
+        }
+
+        div.footer-bottom-section
+        {
+             width:100%; 
+             height:60px;
+             display:flex;
+             margin-top:30px;
+        }
+        .first-top-section
+        {
+            width:400px;
+            height:200px;
+          
+        }
+        .first-top-section h5
+        {
+            color:#ffffff;
+            font-size:15px;
+        }
+        .first-top-section hr
+        {
+            border: 1px solid #ffffff;      
+        }
+
+        .second-top-section
+        {
+            width:250px;
+            height:200px;
+         
+        }
+        .second-top-section h5
+        {
+            color:#ffffff;
+            font-size:15px;
+        }
+
+
+        .third-top-section
+        {
+            width:250px;
+            height:200px;
+          
+        }
+        .third-top-section h5
+        {
+            color:#ffffff;
+            font-size:15px;
+        }
+
+
+        .fourth-top-section
+        {
+            width:200px;
+            height:200px;
+           
+        }
+        .fourth-top-section h5
+        {
+            color:#ffffff;
+            font-size:15px;
+        }
+
+        ul.footer-list
+        {
+            list-style-type: none;
+            padding:0;
+            margin-top:10px;
+        }
+        ul.footer-list li
+        {
+            color:#ffffff;
+        }
+        
+        ul.footer-list li a
+        {
+            color:#ffffff;
+            font-size:12px;
+        }
+
+        .qrcode
+        {
+            width:120px;
+            height:120px;
+            margin-top:20px;
+            margin-left:10px;
+            background-image: url(../images/QRCode.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div.subscribe-wrapper
+        {
+            display:flex;
+        }
+
+        input.subscribe
+        {
+            width:30%;
+            height:40px;
+            background-color:green;
+            color:#ffffff;
+            outline:none;
+            border:none;
+            cursor:pointer;
+        }
+
+        input.subscribe:hover{
+            background-color:#868829;
+        }
+
+        div.social
+        {
+           margin-left:70px;
+           margin-top:10px;
+        }
+
+        ul.social-list
+        {         
+           list-style-type: none;
+           display:flex;
+        }
+        ul.social-list li{
+            width:30px;
+            height:30px; 
+            padding:3px 3px 0px 11px;
+            margin-left:5px;
+            background-color:green;
+            border-radius:50px;
+        }
+
+        i.fa-facebook{
+            font-size:14px;
+            cursor:pointer;
+            color:#ffffff;
+            padding:3px 4px 0px 0px;
+        }
+
+        i.fa-instagram{
+            font-size:14px;
+            cursor:pointer;
+            color:#fff;
+            padding:3px 4px 0px 0px;
+            margin-left:-1px;
+        }
+
+        i.fa-twitter{
+            font-size:14px;
+            cursor:pointer;
+            color:#fff;
+            padding:3px 4px 0px 0px;
+            margin-left:-1px;
+        }
+
+        i.fa-youtube{
+            font-size:14px;
+            cursor:pointer;
+            color:#fff;
+            padding:3px 4px 0px 0px;
+            margin-left:-2px;
+        }
+
+        i.fa-whatsapp
+        {
+            cursor:pointer;
+            color:#fff;
+            padding:3px 4px 0px 0px;
+            margin-left:-2px;  
+        }
+
+        i:hover{
+            color:#ffffff;
+        }
+        ul.social-list li:hover{
+            background-color:green;
+        }
+        ul.social-list li:hover>i{
+            color:#ffffff;
+        }
+
+        div.copyright
+        {
+            width:100%;
+            height:auto;
+            margin-top:50px;
+            margin-bottom:20px;
+            text-align: center;
+            background-color:#ffffff;
+        }
+
+
+    /* ----------- Homepage Styles Ends Here  ------------ */
+
+
+
+
+    /* -- About Page Styles Starts Here  --*/
+
+    .about-banner
+    {
+        background-image: url(../images/about-banner.jpg);
+        background-size: cover;
+        height:400px;
+        margin-top:100px;
+        box-shadow: 1px 1px 8px 3px #000;
+        z-index: 400;
+    }
+    
+    .about-banner span{
+        font-size:40px;
+        text-align:center;
+        font-weight:bold;
+        line-height:40px;
+        color:#ffffff;
+        display:flex;
+        position:absolute;
+        top:200px;
+        left:480px;
+        align-items: center;
+    }
+    
+    
+    .about-intro
+    {
+        width:400px;
+        height:400px;
+        background-color:#e17f43;
+        border-radius:200px;
+    }
+    
+    .about-content
+    {
+        width:60%;
+        height:400px;
+        background-color:#EAEAEA;
+    }
+    
+
+
+
+    /* -- About Page Styles Ends Here  --*/
+
+
+
+
+
+
+        /* ----------- Treatment Pages Layout Styles Starts Here  ------------ */
+
+.Treatment-section-wrapper
+{
+    width:100%;
+    min-height:800px;
+    margin-top:20px;
+    display:flex;
+}
+
+.Treatment-left-section-wrapper
+{
+    width:22%;
+    height:auto;
+    border-right:none;
+}
+
+.Treatment-left-service-list
+{
+    background-color:green;
+    width:100%;
+    padding-left:20px;
+    padding-bottom:20px;
+    border-radius:0px 0px 20px 20px;
+    margin-top:-20px;
+    height:auto;
+}
+
+.Treatment-left-service-list > h5{
+    color:#ffffff;
+}
+
+.Treatment-left-service-list > ul.submenu-service-list li a{
+    color:#ffffff;
+}
+
+ul.submenu-service-list
+{
+    list-style-type:none;
+    padding:0;
+    font-size:13px;
+    position:relative;
+    left:-20px;
+}
+
+ul.submenu-service-list li a:hover{
+    background-color:#429f22 !important; 
+    border-radius:0px 5px 5px 0px;
+    width:100%;
+    color:#ffffff;
+}
+
+
+
+.Treatment-middle-section-wrapper
+{
+    width:100%;
+    height:auto;
+    padding:22px;
+    border-right:none;
+}
+
+.Treatment-right-section-wrapper
+{
+    width:20%;
+    height:500px;
+}
+
+.Treatment-right-form
+{
+    width:100%;
+    height:450px;
+    padding: 24px 1px 8px 1px;
+    text-align:center;
+    border-radius:20px;
+    background-color:#EAEAEA;
+
+}
+
+.Treatment-right-form h5{
+    font-weight:bold;
+}
+
+.Treatment-right-form input{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    padding:10px;
+    border:1px solid #C5C5C5;
+    border-radius:5px;
+}
+
+
+.Treatment-right-service-list
+{
+    width:100%;
+    height:150px;
+    margin-top:20px;
+    border-radius:5px;
+    background-color:#EAEAEA;
+}
+
+
+.Treatment-Content-one
+{
+    width:100%;
+    text-align:justify;
+    line-height:28px;
+    font-size:14.5px;
+    min-height:auto;
+}
+
+.Treatment-image
+{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+}
+
+.Treatment-Content-two
+{
+    width:100%;
+    text-align:justify;
+    line-height:28px;
+    font-size:14.5px;
+    min-height:auto;
+
+}
+
+/* ----------- Treatment Pages Layout Styles Ends Here  ------------ */
+
+
+
+
+
+
+
+
+
+/* --------  Treatment Pages Banner Styles Here ---------*/
+
+
+.Naadi-pariksha-banner
+{
+    width:100vw;
+    height:350px;
+    background-image: url('../images/page-banner/ayurservice.jpg');
+    background-size: cover;
+    margin-bottom:50px;
+    margin-top:101px;
+    box-shadow: 1px 1px 8px 3px #000;
+    z-index:400;
+}
+
+.Naadi-pariksha-banner span{
+    position:absolute;
+    font-size:40px;
+    font-weight:bold;
+    line-height:40px;
+    border-radius: 50px 0px;
+    background-color: #008000;
+    /* box-shadow: 1px 1px 6px 1px #333; */
+    padding: 26px;
+    color:#ffffff;
+    top:200px;
+    right:200px;
+}
+
+
+.contact-banner span{
+    font-size:40px;
+    text-align:center;
+    font-weight:bold;
+    line-height:40px;
+    color:#ffffff;
+    display:flex;
+    position:absolute;
+    top:150px;
+    left:600px;
+    align-items: center;
+}
+
+
+/* --------  Treatment Pages Banner Styles Here ---------*/
+
+
+
+/* -- Gallery Page Styles Starts Here -- */
+
+.gallery-banner{
+    background-image: url(../images/page-banner/gallery-banner.jpg);
+    background-size: cover;
+    height:400px;   
+    margin-top:101px;
+}
+
+
+.treatment-banner
+{
+    background-image: url(../images/page-banner/treatment-banner.jpeg);
+    background-size: cover;
+    height:400px;   
+    margin-top:101px; 
+}
+
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+    
+
+
+/* -- Gallery Page Styles Starts Here -- */
+
+
+
+/* --  Blog Page Styles Starts Here  --*/
+
+.Blog-banner
+{
+    background-image: url(../images/page-banner/blog-banner-edit.jpg);
+    background-size:cover;
+    height:400px;
+    position:relative !important;
+    top:102px !important;
+    box-shadow: 1px 1px 8px 3px #000;
+    z-index: 400;
+}
+
+span.blog-title-txt{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span.blog-title-txt::before{
+    content:'';
+    display:flex;
+    width:5px;
+    height: 46px;
+    background-color:#dc3545;
+    vertical-align: middle;
+    position:absolute;
+    left:-20px;
+    top:8px;
+}
+
+
+.Nadipariksha-blog-banner
+{
+    background-image: url(../images/Blog-Title/Blog-Title-Nadi\ Pariksha.jpg);
+    background-size: cover;
+    height:100px;
+    width:100vw;
+}
+
+
+.sinus-blog-banner
+{
+    background-image: url(../images/Blogs-Banner/BlogNasyam.jpg);
+    background-size: cover;
+    height:400px; 
+    width:100vw;
+}
+
+.shirodhara-blog-banner
+{
+    background-image: url(../images/Blogs-Banner/BlogShirodara.jpg);
+    background-size: cover;
+    height:400px; 
+    width:100vw; 
+}
+
+
+.cervical-blog-banner
+{
+    background-image: url(../images/Blogs-Banner/BlogAyurveda.jpg);
+    background-size: cover;
+    height:400px; 
+    width:100vw;
+}
+
+
+
+
+
+.about-doctor-pic
+{
+    width: 271px;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+    background-color: #ffffff;
+    /* border-radius: 0px 50px 0px 50px; */
+    box-shadow: rgb(223 228 223) 1px 1px 11px 2px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px 50px 0px 50px;
+    float: left;
+}
+
+.doctor-pic
+{
+    width:250px;
+    height:300px;
+    background-image:url(../images/Dr.Shiji.png);
+    background-size:cover;
+    padding:5px;
+    margin-bottom:20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 0px 50px 0px 50px;
+}
+
+
+.about-doctor-pic span{
+    font-size:17px;
+    font-weight:bold;
+}
+
+
+.about-doctor-pic-one
+{
+    width: 271px;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px 10px 27px 10px;
+    border: 1px solid #EAEAEA;
+    background-color: #ffffff;
+    border-radius: 50px 0px 50px 0px;
+    /* border-radius: 0px 50px 0px 50px; */
+    box-shadow: rgb(223 228 223) 1px 1px 11px 2px;
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
+
+.doctor-pic-one
+{
+    width:250px;
+    height:300px;
+    background-image:url(../images/Dr.Athira.png);
+    background-size:cover;
+    padding:5px;
+    margin-bottom:20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 50px 0px 50px 0px;
+
+}
+
+
+.about-doctor-pic-one span{
+    font-size:17px;
+    font-weight:bold;
+}
+
+
+/* --  Blog Page Styles Ends Here  --*/
+
+
+
+/* -- Contact Page Styles Starts Here -- */
+
+
+.Contact-banner
+{
+    background-image: url(../images/page-banner/contact-banner.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    top:102px;
+    box-shadow: 1px 1px 8px 3px #000;
+    z-index: 400;
+}
+
+.contact-wrapper
+{
+    border:1px solid rgb(231, 229, 229);
+    box-shadow: -1px 1px 10px 0px #a9a6a6;
+    padding:40px;
+    text-align:center;
+    border-radius:20px;
+    background-color:#ffffff;
+    margin-top:20px;
+}
+
+input.contact-form
+{
+    width:100%;
+    padding-left:20px;
+    height:45px;
+    outline:none;
+    /* box-shadow: -3px 1px 10px 1px #d4d4d4; */
+    border-bottom: 1px solid #f7f0f0;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    margin-top:20px;
+    
+}
+
+.img-fluid
+{
+    border: 10px solid #EAEAEA;
+    opacity: 0.9;
+    box-shadow: 1px 1px 7px 2px #C5C5C5;
+}
+
+.contact-form::placeholder
+{
+    font-size:16px;
+}
+
+
+input.contact-submit
+{
+    width:100%;
+    height:45px;
+    margin-top:25px;
+    border-radius:5px;
+    color:#ffffff;
+    font-weight:bold;
+    border:1px solid #53770a;
+    background-color:#6b9b0c;
+    cursor:pointer;
+}
+
+input.contact-submit:hover
+{
+    background-color:#476609;
+}
+
+
+div.contact-address-wrapper
+{
+    border:1px solid rgb(231, 229, 229);
+    box-shadow: -1px 1px 10px 0px #a9a6a6;
+    width:100%;
+    height:450px;
+    background-color:#ffffff;
+    margin-top:20px;
+}
+
+
+/* -- Contact Page Styles Ends Here -- */
+
+.image-wrapper-layout
+{
+    display:flex;
+
+}
+
+.image-wrapper
+{
+    border:1px solid #CCC;
+    width:300px;
+    height:300px;
+    border-radius:5px;
+}
+
+
+.contact-left-layout
+{
+    border-radius: 5px 50px 0px 50px;
+    background-image: linear-gradient(45deg, #6da12e, #5fc596);
+    margin-top:20px;  
+    padding:35px 20px 20px 20px;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.blog-content
+{
+    width : 200px;
+    height : 350px;
+    border:1px solid #C5C5C5;
+    background-color:#ffffff;
+    /* margin-left:50px; */
+    border-radius:5px; 
+}
+
+.blog-img-wrapper
+{
+    background-image: url('../images/Blog-Naadipariksha.jpg');
+    background-size: cover;
+    border-radius:5px;
+    width:100%;
+    margin-top:15px;
+    height:150px;
+}
+
+.blog-category
+{
+    margin-top:10px;
+}
+
+.blog-title a
+{
+    color:#333333;
+}
+
+.blog-title a:hover
+{
+    color:green;
+}
+
+
+.blog-content-layout
+{
+    width:100%;
+    display:flex;
+    border:1px solid #C5C5C5;
+}
+
+.blog-content-section
+{
+    width:70%;
+    padding:30px 20px 20px 20px;
+    background-color:#ffffff;
+}
+
+.blog-content-inner
+{
+    width:100%;
+    height: auto;
+    text-align: justify;
+
+}
+
+.Related-blogs
+{
+    width:30%;
+    height:100%;
+    padding:25px 20px 0px 0px;
+    background-color:#ffffff;
+}
+
+.Related-blog-title
+{
+    width:100%;
+}
+
+.Related-blog-outline
+{
+    width: 100% ;
+    height:100%;
+}
+
+.Related-blog-section
+{
+    width:100%;
+    height:130px;
+    display:flex;
+    padding:5px;
+    margin-top:20px;
+    box-shadow: 1px 0px 8px 1px #EAEAEA;
+}
+
+.Related-section-image
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Naadipariksha.jpg');
+}
+
+.Related-section-image-Nadipariksha
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Thumbnail/Blog-Nadi Pariksha.jpg');
+    background-size:cover;
+}
+
+.Related-section-image-Sinusitis
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Thumbnail/Blog\ \(Thumbnail\)\ Nasyam\ 124x120.jpg');
+    background-size:cover;
+}
+
+
+.Related-section-image-Shirodhara
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Thumbnail/Blog\ \(Thumbnail\)\ Shirodara\ 124x120.jpg');
+    background-size:cover;
+}
+
+.Related-section-image-arthritis
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-images/Arthritis-recent.jpg');
+    background-size:cover;
+}
+
+.Related-section-image-backpain
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-images/backpain-recent.jpg');
+    background-size:cover;
+}
+
+
+.Related-section-image-abhyangam
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-images/Abhyangam-recent.jpg');
+    background-size:cover;
+}
+
+
+
+.Related-section-image-Sinusitis
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Thumbnail/Blog\ \(Thumbnail\)\ Nasyam\ 124x120.jpg');
+}
+
+
+.Related-section-image-cervical
+{
+    width:40%;
+    height:120px;
+    background-image: url('../images/Blog-Thumbnail/Blog\ \(Thumbnail\)\ Bundle\ Therapy\ 124x120.jpg');
+}
+
+
+
+
+
+
+
+
+.Related-section-content
+{
+    width:50%;
+    margin-left:10px;
+}
+
+
+
+
+ul.breadcrumb {
+    width:100%;
+    padding: 8px 8px;
+    list-style: none;
+    background-color: green;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    margin-left:15px;
+  }
+ 
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #ffffff;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #EAEAEA;
+    text-decoration: underline;
+  }
+
+  ul.breadcrumb li a.active{
+      text-decoration:underline;
+  }
+
+
+  .about-img
+{
+    background-image:url(../images/about-ayurveda-new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    margin-bottom : 0px;
+    margin-top : 20px ;
+    padding : 50px ;
+    font-size : 14px ;
+    border-radius : 0px 100px 0px 100px;
+    text-align : justify;
+}
+
+
+.first-section-header a{
+     color:#ffffff;
+}
+
+
+.first-section-header a:hover{
+    color:green;
+}
+
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+
+  .treatment-image-section
+  {
+    height : auto;
+    margin-top:30px;
+    
+    
+  }
+
+  .treatment-image-swedana
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/swedana.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-hotstone
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/hotstone.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-shodana
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/shodana.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+
+  }
+
+
+  .treatment-image-abyangam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Abyangam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-face-abyangam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Abyangam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-podikizhi
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Podikizhi.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-pizhichil
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Pizhichil.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-nasyam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Nasyam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Kativashti
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Kativasthi.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Lepam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Lepam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-shodanapic
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/shodhanapic.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-lifestyle
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Naranga.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+
+  }
+
+
+  .treatment-image-Dhanyamla
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Dhanyamla.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Manal-kizhi
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Elakizhi
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Elakizhi.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Ksheeradhara
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/KsheeraDhara.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Bandage
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/bandage.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Herbal-steam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Kalmegh
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Giloy
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/giloy.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Tulsi
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/tulsi.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Chirata-Powder
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Mulethiy
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Udwarthanam
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Udwarthanam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Lymphatic-Drainage-System 
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Lymphaticdrainage.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Lymphatic-massage
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/lymphaticmassage.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-diet
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/diet.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+
+
+  .treatment-image-Takradhara
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Takradhara.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Kashaya-Dhara
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/kashayadhara.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Netra-tarpana
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/netratarpana.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Face-abyangam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-triphala-powder
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+
+  .treatment-image-eye-drops
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Shirodhara
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Shirodhara.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+   
+  .treatment-image-Virechanam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/virechanam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Njavarakizhi
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/NjavaraKizhi.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Yoga
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/yoga.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+  
+
+  .treatment-image-Meditation
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/meditation.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Reflexology
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Footreflexsology.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Detoxification
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/DetoxifiyingWrap.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Lymphatic-Drainage-Massage
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Lymphaticdrainage.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Head-Massage
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/head-massage1.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Head-Steam
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/nasyam.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Hair-Pack
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/nasyam.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Prescribed-Oils
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/nasyam.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Vaman
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/vaman.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+  .treatment-image-Basti
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/basti.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  
+  .treatment-image-Udwarthanam
+
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/TreatmentThumbnail/Udwarthanam.jpg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-PersonalizedDiet
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/nasyam.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+  .treatment-image-Snana
+  {
+    width : 250px ;
+    height :150px ;
+    border : 1px solid #EAEAEA; 
+    background-image: url('../images/nasyam.jpeg');
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    border: none;
+    background-size: cover;
+    border-radius:10px;
+  }
+
+
+
+  .panel-heading {
+    padding: 0;
+      border:0;
+  }
+  .panel-title>a, .panel-title>a:active{
+      display:block;
+      padding:15px;
+    color:#555;
+    font-size:16px;
+    font-weight:bold;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    word-spacing:3px;
+      text-decoration:none;
+  }
+  .panel-heading  a:before {
+     font-family: 'Glyphicons Halflings';
+     content: "\e114";
+     float: right;
+     transition: all 0.5s;
+  }
+  .panel-heading.active a:before {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+  } 
+
+
+  div.collapse-faq
+  {
+    height :40px ;
+    width : 100%;
+    border-radius : 10px;
+    padding : 8px;
+    margin-top:1px;
+    cursor :pointer; 
+    background-color:green;
+    color:#ffffff;
+  }
+ 
+
+
+  .Treatment-Title img {
+    box-shadow: 1px 7px 10px 0px #6d6b6b;
+    margin-bottom:20px;
+}
+
+
+::placeholder
+{
+    font-size:14px;
+    color:#000;
+    padding-left:0;
+}
+
+.whats-app {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    background-color: #02a84e;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    left: 15px;
+    z-index: 1000;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+.whats-app:hover
+{
+    background-color: #11c964;
+    transition:0.3s;
+}
+
+sup{
+    font-size: 24px !important;
+    top: 3px !important;
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.was-validated .form-control:invalid 
+{
+    border-color: #ded7d7 !important;
+}
+
+
+.form-group
+{
+    margin-bottom:2rem !important;
+}
+
+
+.home-book-appointment
+{
+    position:relative;
+    top:-45px; 
+}
+
+
+@media only screen and (max-width:1000px)
+{
+    
+.home-book-appointment
+{
+    display:none !important;
+}  
+
+}
+
+@media screen and (min-width:2050px) and (max-width:2100px)
+{
+#home-page-first-layout
+{
+    margin-top:346px !important;
+
+}
+}
+
+
+.blog-one-latest
+{
+    list-style-type:none;
+}
+
+
+.media-dropdown {
+    width: 200px !important;
+    left: 0px !important;
+    height: 103px !important;
+    border-radius:5px !important;
+}
+
+
+ul.nav-media
+{
+    list-style-type:none;
+    padding: 0;
+}
+
+.media-dropdown-layout
+{
+    width:95%;
+}
+
+ul.nav-media li {
+    padding-left: 10px;
+    width: 100%;
+}
+
+ul.nav-media li a {
+    width: 100%;
+}
+
+
+.treatment-row
+{
+   box-shadow: 0px 0px 4px 1px #eaeaea;
+   border-radius:5px;
+   padding:10px; 
+   background-color:#ffffff !important;
+}
+
+.video-bg-layout
+{
+    width:100% ;
+    height: 200px;
+    border:3px solid #ffffff;
+}
+
+
+
+.gallery-title{
+    font-size: 36px;
+    color: #3F6184;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.filter-button{
+    font-size: 18px;
+    border: 2px solid #3F6184;
+	padding:5px 10px;
+    text-align: center;
+    color: #3F6184;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#3F6184;
+	outline:none;
+}
+.gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+
+.dropdown-menu.media-dropdown {
+    height: 50px !important;
+}
+
+
+.treatment-img-style
+{
+        box-shadow: 0px 1px 7px 1px #737171;
+        border-radius: 20px;
+        width:100%;
+}
+
+button.btn.btn-success a {
+    color: #fff;
+}
+
+h4.card-title a {
+    color: #43631e;
+}
+
+
+.blog-hd{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h5.video-headings
+{
+    color:#1f301c;
+}
+
+h5.youtube-video-head
+{
+    text-transform: Lowercase;
+    font-size: 14.5px;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+    padding: 5px 5px;
+}
+
+.video-bg
+{
+    border:1px solid #EAEAEA;
+}
+
+.video-bt
+{
+    font-size:13.5px;
+}
+
+
+h5.card-title.font-weight-bold.mt-2 {
+    color: white;
+    background-color: green;
+    padding: 5px 10px 8px;
+    border-radius: 5px;
+}
+
+
+@media(width:375px)
+{
+button.navbar-toggler
+{
+    position: relative;
+    left: 245px !important;
+    top: -106px !important;
+}
+
+.navbar-collapse
+{
+    position:relative !important;
+    top:-77px !important;
+}
+
+}
+
+
+
+/* Login Form */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    position:absolute;
+  }
+  
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 20px 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  #formFooter {
+    background-color: #4a6d1f;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    /* -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px; */
+  }
+  
+
+  div#formFooter a {
+    color: #fff;
+}
+
+  
+  
+  /* TABS */
+  
+  h2.inactive {
+    color: #cccccc;
+  }
+  
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  
+  
+  /* FORM TYPOGRAPHY*/
+  
+  input[type=button], input[type=submit], input[type=reset]  {
+    border: none;
+    color: white;
+    padding: 12px 80px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 5px -6px 0px 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #4a6d1f;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 1px solid #e2e2e2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  input[type=text]:placeholder {
+    color: #cccccc;
+  }
+  
+  
+  
+  /* ANIMATIONS */
+  
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+  .fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  /* .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  } */
+  
+  
+  
+  /* OTHERS */
+  
+  *:focus {
+      outline: none;
+  } 
+  
+  #icon {
+    width:35%;
+  }
+  
+
+  ul.adminlist
+{
+    list-style-type: none;
+}
+
+
+ul.adminlist li a
+{
+    color:#23330e;
+}
+
+ul.adminlist li {
+    text-align: left;
+}
+
+
+li::marker {
+    color: #83ae51;
+}
+
+.dashboard-right-section
+{
+    margin-top: 20px;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: -1px -1px 7px 1px #e4e3e3;
+}
+
+input#Date {
+    border: 1px solid #cecdcd;
+    background-color: #f6f6f6;
+    height: 50px;
+    width: 85%;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size:14px;
+    padding-left:20px;
+}
+
+ul.adminlist li.active>a {
+    background-color: #23330e;
+    color: #fff;
+    padding: 4px 20px 7px;
+    border-radius: 5px;
+}
+
+
+.container.team-container {
+    padding-top: 100px;
+}
